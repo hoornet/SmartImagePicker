@@ -2,10 +2,10 @@ package com.myhexaville.androidimagepicker.fragment_example;
 
 
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +32,8 @@ public class ImagePickerFragment extends Fragment {
         binding.showAll.setOnClickListener(v -> showAll());
         binding.showGallery.setOnClickListener(v -> chooseFromGallery());
 
-        return binding.getRoot();
+
+        return binding.image;
     }
 
     @Override
