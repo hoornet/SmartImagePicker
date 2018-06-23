@@ -1,5 +1,7 @@
 ### Simplified abstraction over [Android Image Cropper](https://github.com/ArthurHub/Android-Image-Cropper) library to pick images from gallery or camera and crop them if needed.
 
+Migrated the library to AndroidX
+
 <p float="center">
 <img src="https://user-images.githubusercontent.com/13784275/38213306-6ddec3f6-36c9-11e8-8c13-ab67e969235b.png" width="288" height="512" />
 <img src="https://user-images.githubusercontent.com/13784275/38212706-64ce7a7e-36c7-11e8-8e13-afb9b4ebff33.png" width="288" height="512" />
